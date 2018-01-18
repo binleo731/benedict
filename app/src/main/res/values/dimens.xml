@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_height">46dp</dimen>
+    <dimen name="icon_w14">14dp</dimen><!-- item的右箭头 -->
+    <dimen name="icon_h14">14dp</dimen>
+    <dimen name="icon_w26">26dp</dimen><!-- title栏icon -->
+    <dimen name="icon_h26">26dp</dimen>
+
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen><!-- 基础字体大小 -->
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_17">17sp</dimen><!-- 主界面标题 -->
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_19">19sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_25">25sp</dimen>
+    <dimen name="text_29">29sp</dimen>
+
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_25">25dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+
+    <dimen name="marginTopHigh">30dp</dimen>
+    <dimen name="marginTopEdixtText">50dp</dimen>
+    <dimen name="marginTopButton">30dp</dimen>
+
+    <!--OCR身份证-->
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+
+    <dimen name="tv_high_40">50dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="high_60">60dp</dimen>
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <!--face-->
+    <dimen name="htjc_activity_horizontal_margin">16dp</dimen>
+    <dimen name="htjc_activity_vertical_margin">16dp</dimen>
+
+    <dimen name="htjc_title_margintop">40dp</dimen>
+    <dimen name="htjc_title_textsize">18sp</dimen>
+    <dimen name="htjc_img_marginleft">5dp</dimen>
+
+    <dimen name="htjc_img_start_margintop">50dp</dimen>
+    <dimen name="htjc_img_start_size">210dp</dimen>
+
+    <dimen name="htjc_remind_textsize">17sp</dimen>
+    <dimen name="htjc_btn_start">60dp</dimen>
+
+    <dimen name="htjc_img_success_size">30dp</dimen>
+    <dimen name="htjc_btn_back">50dp</dimen>
+
+    <dimen name="htjc_ll_margintop">75dp</dimen>
+
+    <dimen name="htjc_live_detect_main_title_height">44dp</dimen>
+    <dimen name="htjc_img_range_bg_layout_width">214dp</dimen>
+    <dimen name="htjc_img_range_bg_layout_height">214dp</dimen>
+    <dimen name="htjc_img_range_bg_layout_margin_left">73dp</dimen>
+    <dimen name="htjc_img_range_bg_layout_margin_top">29dp</dimen>
+    <dimen name="htjc_img_range_bg_layout_margin_right">72dp</dimen>
+    <dimen name="htjc_img_range_bg_layout_margin_bottom">214dp</dimen>
+  <dimen name="text_hignt_200">400dp</dimen>
+</resources>

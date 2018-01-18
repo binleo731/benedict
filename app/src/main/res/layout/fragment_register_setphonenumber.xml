@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    >
+  <LinearLayout
+      android:id="@+id/root_layout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="@dimen/margin_20"
+      android:layout_marginRight="@dimen/margin_20"
+      android:orientation="vertical"
+      android:clickable="true"
+      >
+    <TextView
+        android:layout_marginTop="@dimen/marginTopHigh"
+        android:text="@string/my_phone_number"
+        style="@style/registerFirsttxtBold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/bind_banknumber"
+        style="@style/registerFirsttxt"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50"
+        android:layout_marginTop="@dimen/marginTopEdixtText"
+        android:orientation="horizontal"
+        >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_marginRight="@dimen/margin_10"
+          android:text="+86"
+          style="@style/registerFirsttxt"
+          />
+      <EditText
+          android:id="@+id/tv_set_phonenumber"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/button_shape_white"
+          android:inputType="number"
+          android:maxLength="13"
+          android:paddingLeft="@dimen/padding_20"
+          android:singleLine="true"
+          />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_setphone_msg"
+        style="@style/registerFirsttxt"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40"
+        android:orientation="horizontal"
+        >
+      <CheckBox
+          android:id="@+id/register_cb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+      <TextView
+          android:text="@string/agree_agreement"
+          style="@style/registerFirsttxt"
+          />
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_next"
+        style="@style/buttonstyle"
+        />
+  </LinearLayout>
+
+
+</ScrollView>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/margin_30"
+    android:layout_marginRight="@dimen/margin_30"
+    android:orientation="vertical"
+    >
+
+  <ImageView
+      android:id="@+id/iv_changeip"
+      android:layout_width="100dp"
+      android:layout_height="30dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="@dimen/high_60"
+      android:background="@drawable/logo_example_bank"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/tv_high_40"
+      android:layout_marginLeft="@dimen/margin_20"
+      android:layout_marginRight="@dimen/margin_20"
+      android:layout_marginTop="@dimen/margin_60"
+      android:text="@string/what_todo_now"
+      android:textColor="@color/txtblack"
+      android:textSize="@dimen/text_18"
+      />
+  <Button
+      android:id="@+id/fea_bt_openaccount"
+      android:layout_marginLeft="@dimen/margin_20"
+      android:layout_marginRight="@dimen/margin_20"
+      android:text="@string/open_accout"
+      style="@style/buttonstyle"
+      />
+  <Button
+      android:id="@+id/fea_bt_login"
+      android:layout_marginLeft="@dimen/margin_20"
+      android:layout_marginRight="@dimen/margin_20"
+      android:text="@string/login"
+      style="@style/buttonstyle"
+      />
+  <Button
+      android:id="@+id/fea_bt_co_merchant"
+      android:layout_marginLeft="@dimen/margin_20"
+      android:layout_marginRight="@dimen/margin_20"
+      android:text="@string/add_co_merchant"
+      style="@style/buttonstyle"
+      />
+
+</LinearLayout>

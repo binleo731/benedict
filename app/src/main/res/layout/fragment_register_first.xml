@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:layout_marginRight="@dimen/margin_20"
+    android:layout_marginLeft="@dimen/margin_20"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_marginTop="@dimen/margin_30"
+      style="@style/registerFirsttxt"
+      android:text="@string/toready"
+      />
+  <TextView
+      style="@style/registerFirsttxt"
+      android:text="@string/IdCard"
+      android:drawableLeft="@drawable/ic_folder_shared_black_24dp"
+      />
+
+  <TextView
+      android:layout_marginTop="@dimen/margin_15"
+      style="@style/registerFirsttxt"
+      android:text="@string/support_bank_list"
+      android:drawableLeft="@drawable/ic_payment_black_24dp"
+      />
+
+  <TextView
+      android:layout_marginTop="@dimen/margin_15"
+      style="@style/registerFirsttxt"
+      android:text="@string/face_recognition_light"
+      android:drawableLeft="@drawable/ic_lightbulb_outline_black_24dp"
+      />
+
+  <TextView
+      android:layout_marginTop="@dimen/margin_15"
+      style="@style/registerFirsttxt"
+      android:text="@string/stable_network_env"
+      android:drawableLeft="@drawable/ic_tap_and_play_black_24dp"
+      />
+  <Button
+      style="@style/buttonstyle"
+      android:id="@+id/bt_next"
+      />
+
+
+</LinearLayout>

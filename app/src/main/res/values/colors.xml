@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="errortxt">#D51E35</color>
+    <color name="appcolor">#D8D8D8</color>
+    <color name="bgGray">#EEEEEE</color>
+    <color name="txtSomber">#666666</color>
+    <color name="txtblack">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="id_card_tips_solid">#D8D8D8</color>
+    <color name="id_card_tips_stroke">#747474</color>
+    <color name="segLineGray">#DFDFDF</color>
+
+    <!--face-->
+    <color name="htjc_main_bg">#026a86</color>
+    <color name="htjc_live_bg">#d5d5d5</color>
+    <color name="htjc_title_bg">#0186aa</color>
+    <color name="htjc_white">#FFFFFF</color>
+    <color name="htjc_black">#000000</color>
+    <color name="htjc_orange">#FF7F00</color>
+
+    <color name="htjc_blue">#0000FF</color>
+    <color name="htjc_red">#FFFF3333</color>
+    <color name="htjc_green">#FF33FF33</color>
+    <color name="htjc_txt_blue">#FF3333FF</color>
+    <color name="htjc_bg_green">#009900</color>
+    <color name="htjc_bg_blue">#48a1dd</color>
+
+    <color name="htjc_transparent">#00000000</color>
+    <color name="htjc_txt_black">#de000000</color>
+
+    <!-- round_color  外圈默认颜色    -->
+    <color name="htjc_round_color">#004b5e</color>
+    <!-- progress_color  进度条颜色    -->
+    <color name="htjc_progress_color">#ed7d00</color>
+    <color name="progress_color">#4A90E2</color>
+    <color name="progress_background">#4A4A4A</color>
+</resources>

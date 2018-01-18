@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:layout_marginRight="@dimen/margin_20"
+    android:layout_marginLeft="@dimen/margin_20"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_marginTop="@dimen/marginTopHigh"
+      style="@style/registerFirsttxtBold"
+      android:text="@string/set_transpwd"
+      />
+
+  <com.jv.benedict.ui.view.SixPwdEditTextView
+      android:id="@+id/spet_transpwd"
+      android:layout_height="60dp"
+      android:layout_width="240dp"
+      android:layout_gravity="center"
+      />
+
+  <TextView
+      android:id="@+id/tv_transpwd_msg"
+      android:text="@string/set_transpwd"
+      style="@style/registerFirsttxt"
+      />
+
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_marginTop="@dimen/padding_20"
+      android:gravity="center"
+      android:text="@string/what_safe_pwd"
+      style="@style/registerFirsttxt"
+      />
+  <Button
+      android:id="@+id/bt_next"
+      android:layout_marginTop="@dimen/marginTopButton"
+      style="@style/buttonstyle"
+      />
+
+
+
+</LinearLayout>

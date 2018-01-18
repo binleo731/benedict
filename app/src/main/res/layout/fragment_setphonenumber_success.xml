@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:layout_marginRight="@dimen/margin_20"
+    android:layout_marginLeft="@dimen/margin_20"
+    android:clickable="true"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_marginTop="@dimen/marginTopHigh"
+      style="@style/registerFirsttxtBold"
+      android:text="@string/bind_phonenumber_success"
+      android:drawableLeft="@drawable/icon_checkmark"
+      android:drawablePadding="@dimen/margin_5"
+      />
+
+  <TextView
+
+      style="@style/registerFirsttxt"
+      android:layout_height="wrap_content"
+      android:text="@string/login_anytime"
+      />
+  <Button
+      android:layout_marginTop="@dimen/margin_50"
+      style="@style/buttonstyle"
+      android:id="@+id/bt_next"
+      />
+
+</LinearLayout>

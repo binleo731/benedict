@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+      <!--button正常情况下背景-->
+    <item android:drawable="@drawable/button_shape_white" android:state_pressed="false"/>
+  <!--butto按下背景-->
+  <item android:drawable="@drawable/button_shape_gray" android:state_pressed="true"/>
+</selector>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/margin_20"
+    android:layout_marginRight="@dimen/margin_20"
+    android:orientation="vertical"
+    >
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+      <TextView
+          android:layout_marginTop="@dimen/marginTopHigh"
+          android:text="@string/set_loginpwd"
+          style="@style/registerFirsttxtBold"
+          />
+      <TextView
+          android:layout_height="wrap_content"
+          android:text="@string/login_pwd_ok"
+          style="@style/registerFirsttxtBold"
+          />
+
+
+      <cn.passguard.PassGuardEdit
+
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/button_shape_white"
+          android:focusable="false"
+          android:inputType="textPassword"
+          android:visibility="gone"
+          />
+
+      <EditText
+          android:id="@+id/et_login_pwd"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/marginTopEdixtText"
+          android:background="@drawable/button_shape_white"
+          android:inputType="textPassword"
+          android:maxLength="16"
+          android:paddingLeft="@dimen/padding_20"
+          />
+
+
+      <TextView
+          android:id="@+id/tv_loginpwd_msg"
+          android:text="@string/setpwd_8_16"
+          style="@style/registerFirsttxt"
+          />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_marginTop="@dimen/padding_20"
+          android:gravity="center"
+          android:text="@string/what_safe_pwd"
+          style="@style/registerFirsttxt"
+          />
+      <Button
+          android:id="@+id/bt_next"
+          android:layout_marginTop="@dimen/marginTopButton"
+          style="@style/buttonstyle"
+          />
+
+
+    </LinearLayout>
+
+
+  </ScrollView>
+
+</LinearLayout>
